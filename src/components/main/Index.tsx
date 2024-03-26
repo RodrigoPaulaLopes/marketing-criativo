@@ -1,13 +1,13 @@
-import Article from "./article/Index"
-import Aside from "./aside/Index"
-import "./styles.css"
-
+// import Article from "./article/Index";
+import Aside from "./aside/Index";
+import "./styles.css";
 
 export default function Main() {
     return (
         <main>
-            <Aside/>
-            <Article/>
+            <Aside />
+            {/* <Article /> */}
+
         </main>
-    )
+    );
 }
